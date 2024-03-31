@@ -1,0 +1,50 @@
+body {
+  background-color: #484c4d; /* Light grey background */
+  color: rgb(255, 128, 192); /* Golden text color for contrast */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table Header */
+th {
+  background-color: #808080;
+  color: rgb(70, 27, 27);
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Table Rows */
+tr:nth-child(even) {
+  background-color:  #484c4d;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Table Data */
+td {
+  padding: 10px;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #222;
+  color: white;
+}
+
+.dark-mode th {
+  background-color: #444;
+}
+
+.dark-mode tr:nth-child(even) {
+  background-color: #333;
+}
+
+.dark-mode tr:hover {
+  background-color: #555;
+}
